@@ -1,0 +1,183 @@
+{
+  "experiment": {
+    "seed": 42,
+    "folds": 5,
+    "train_rows": 803,
+    "test_rows": 202,
+    "modeling_rows": 1005,
+    "unique_input_groups": 996,
+    "selected": "Polynomial 3",
+    "selection": "Lowest mean training CV RMSE; fewer terms breaks ties",
+    "split": "80/20 unique input groups; shuffled KFold on training groups",
+    "created_utc": "2026-11-01T13:53:20.461820+00:00",
+    "python": "3.11.15",
+    "sklearn": "1.6.1",
+    "data_sha256": "710076c66b9ca3f8050e7942f3dcbdbe04013534daeb0077ffd3079a52d8e0c4",
+    "experiment_id": "9ef455423207"
+  },
+  "metrics": [
+    {
+      "Model": "Linear",
+      "Degree": 1,
+      "Terms": 8,
+      "CV RMSE": 10.367572535098597,
+      "CV SD": 0.4611104389630721,
+      "Train MAE": 8.123154815337632,
+      "Train MSE": 104.39729886150491,
+      "Train RMSE": 10.217499638439186,
+      "Train R2": 0.6173467499626406,
+      "Test MAE": 8.361739877226082,
+      "Test MSE": 109.44924992719233,
+      "Test RMSE": 10.461799554913693,
+      "Test R2": 0.5312160985936014
+    },
+    {
+      "Model": "Polynomial 2",
+      "Degree": 2,
+      "Terms": 44,
+      "CV RMSE": 7.832791492870254,
+      "CV SD": 0.46902696036675146,
+      "Train MAE": 5.5163992776900725,
+      "Train MSE": 51.566432564319626,
+      "Train RMSE": 7.180977131583113,
+      "Train R2": 0.8109906747707516,
+      "Test MAE": 5.751951621359219,
+      "Test MSE": 56.05420211545136,
+      "Test RMSE": 7.486935428828764,
+      "Test R2": 0.7599133153001574
+    },
+    {
+      "Model": "Polynomial 3",
+      "Degree": 3,
+      "Terms": 164,
+      "CV RMSE": 7.48934354957841,
+      "CV SD": 1.7261889146566907,
+      "Train MAE": 3.358765800641627,
+      "Train MSE": 19.165646476370238,
+      "Train RMSE": 4.377858663361603,
+      "Train R2": 0.9297510855814453,
+      "Test MAE": 4.5353015345208645,
+      "Test MSE": 38.14750744173658,
+      "Test RMSE": 6.176366848053682,
+      "Test R2": 0.836609776865872
+    }
+  ],
+  "diagnostics": {
+    "BP LM": 14.17119424012938,
+    "BP p": 0.07741099120847802,
+    "BP F": 1.8201684223036432,
+    "BP F p": 0.07537681194709928,
+    "Shapiro W": 0.9477975866619708,
+    "Shapiro p": 1.042686393012996e-06,
+    "Residual mean": 0.10789365594651726,
+    "Residual SD": 6.190767083274393,
+    "Beyond 3 SD": 2,
+    "Expanded design rank": 165,
+    "Expanded design columns": 165,
+    "Expanded condition number": 2719.51831015519
+  },
+  "expected_pages": 22,
+  "contents": [
+    {
+      "heading": "1 Abstract",
+      "page": 3
+    },
+    {
+      "heading": "2 Introduction",
+      "page": 3
+    },
+    {
+      "heading": "3 Problem Statement",
+      "page": 4
+    },
+    {
+      "heading": "4 Objectives",
+      "page": 4
+    },
+    {
+      "heading": "5 Literature Review",
+      "page": 5
+    },
+    {
+      "heading": "6 Dataset Description",
+      "page": 6
+    },
+    {
+      "heading": "7 Software and Hardware Requirements",
+      "page": 7
+    },
+    {
+      "heading": "8 Methodology",
+      "page": 7
+    },
+    {
+      "heading": "9 Data Preprocessing",
+      "page": 8
+    },
+    {
+      "heading": "10 Exploratory Data Analysis",
+      "page": 9
+    },
+    {
+      "heading": "11 Linear Regression Implementation",
+      "page": 13
+    },
+    {
+      "heading": "12 Polynomial Regression Implementation",
+      "page": 13
+    },
+    {
+      "heading": "13 Cross Validation and Model Comparison",
+      "page": 14
+    },
+    {
+      "heading": "14 Residual Diagnostics",
+      "page": 15
+    },
+    {
+      "heading": "15 Multicollinearity Analysis",
+      "page": 17
+    },
+    {
+      "heading": "16 Water Cement Ratio Analysis",
+      "page": 18
+    },
+    {
+      "heading": "17 Curing Age Analysis",
+      "page": 19
+    },
+    {
+      "heading": "18 Results and Discussion",
+      "page": 20
+    },
+    {
+      "heading": "19 Conclusion",
+      "page": 20
+    },
+    {
+      "heading": "20 Limitations",
+      "page": 21
+    },
+    {
+      "heading": "21 Future Scope",
+      "page": 21
+    },
+    {
+      "heading": "22 References",
+      "page": 22
+    }
+  ],
+  "figures": {
+    "strength_distribution": "artifacts/figures/9ef455423207/strength_distribution.png",
+    "input_histograms": "artifacts/figures/9ef455423207/input_histograms.png",
+    "correlation": "artifacts/figures/9ef455423207/correlation.png",
+    "feature_scatter": "artifacts/figures/9ef455423207/feature_scatter.png",
+    "boxplots": "artifacts/figures/9ef455423207/boxplots.png",
+    "pairwise": "artifacts/figures/9ef455423207/pairwise.png",
+    "comparison": "artifacts/figures/9ef455423207/comparison.png",
+    "actual_predicted": "artifacts/figures/9ef455423207/actual_predicted.png",
+    "residuals": "artifacts/figures/9ef455423207/residuals.png",
+    "factor_trends": "artifacts/figures/9ef455423207/factor_trends.png",
+    "factor_distributions": "artifacts/figures/9ef455423207/factor_distributions.png"
+  }
+}

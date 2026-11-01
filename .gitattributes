@@ -1,0 +1,6 @@
+*.pdf binary
+*.docx binary
+*.xls binary
+*.zip binary
+*.joblib binary
+data/raw/Concrete_Readme.txt -text -diff -whitespace

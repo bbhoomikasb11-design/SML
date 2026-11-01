@@ -1,0 +1,38 @@
+{
+  "source": "https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength",
+  "download_url": "https://archive.ics.uci.edu/static/public/165/concrete%2Bcompressive%2Bstrength.zip",
+  "sha256": "710076c66b9ca3f8050e7942f3dcbdbe04013534daeb0077ffd3079a52d8e0c4",
+  "audit_utc": "2026-11-01T13:57:08.620191+00:00",
+  "license": "CC BY 4.0",
+  "attribution": "I-Cheng Yeh. Concrete Compressive Strength. UCI Machine Learning Repository. DOI: 10.24432/C5PK67",
+  "audit": {
+    "rows": 1030,
+    "columns": 9,
+    "features": 8,
+    "missing": {
+      "Cement": 0,
+      "Blast Furnace Slag": 0,
+      "Fly Ash": 0,
+      "Water": 0,
+      "Superplasticizer": 0,
+      "Coarse Aggregate": 0,
+      "Fine Aggregate": 0,
+      "Age": 0,
+      "Strength": 0
+    },
+    "duplicate_rows": 25,
+    "repeated_inputs": 34,
+    "invalid_rows": 0,
+    "iqr_flags": {
+      "Cement": 0,
+      "Blast Furnace Slag": 2,
+      "Fly Ash": 0,
+      "Water": 9,
+      "Superplasticizer": 10,
+      "Coarse Aggregate": 0,
+      "Fine Aggregate": 5,
+      "Age": 59,
+      "Strength": 4
+    }
+  }
+}

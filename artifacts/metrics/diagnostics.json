@@ -1,0 +1,14 @@
+{
+  "BP LM": 14.17119424012938,
+  "BP p": 0.07741099120847802,
+  "BP F": 1.8201684223036432,
+  "BP F p": 0.07537681194709928,
+  "Shapiro W": 0.9477975866619708,
+  "Shapiro p": 1.042686393012996e-06,
+  "Residual mean": 0.10789365594651726,
+  "Residual SD": 6.190767083274393,
+  "Beyond 3 SD": 2,
+  "Expanded design rank": 165,
+  "Expanded design columns": 165,
+  "Expanded condition number": 2719.51831015519
+}

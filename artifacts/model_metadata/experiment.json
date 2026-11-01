@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "folds": 5,
+  "train_rows": 803,
+  "test_rows": 202,
+  "modeling_rows": 1005,
+  "unique_input_groups": 996,
+  "selected": "Polynomial 3",
+  "selection": "Lowest mean training CV RMSE; fewer terms breaks ties",
+  "split": "80/20 unique input groups; shuffled KFold on training groups",
+  "created_utc": "2026-11-01T13:53:20.461820+00:00",
+  "python": "3.11.15",
+  "sklearn": "1.6.1",
+  "data_sha256": "710076c66b9ca3f8050e7942f3dcbdbe04013534daeb0077ffd3079a52d8e0c4",
+  "experiment_id": "9ef455423207"
+}
